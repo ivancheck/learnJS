@@ -1,5 +1,17 @@
 "use strict";
 
-const user = "Иван";
+let increment = 15,
+    decrement = 15;
 
-alert(`Привет, ${user}`);
+   
+
+    console.log(++increment);
+    console.log(--decrement);
+
+    console.log(increment);
+    console.log(decrement);
+
+    console.log(5*5 == 25);
+
+    
+    
