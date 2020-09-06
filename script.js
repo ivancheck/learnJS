@@ -1,17 +1,27 @@
 "use strict";
 
-let increment = 15,
-    decrement = 15;
+const numberOfFilms = +prompt('Сколько фильмов вы уже посмотрели?', '');
 
-   
+const personalMovieDB = {
+    count: numberOfFilms,
+    movies: {},
+    actors: {},
+    genres: [],
+    privat: false,
 
-    console.log(++increment);
-    console.log(--decrement);
+};
 
-    console.log(increment);
-    console.log(decrement);
+const a = prompt('Один из последних просмотренных фильов?', ''),
+      b = prompt('На сколько оцените его?', ''),
+      c = prompt('Один из последних просмотренных фильов?', ''),
+      d = prompt('На сколько оцените его?', '');
 
-    console.log(5*5 == 25);
+      personalMovieDB.movies[a]=b;
+      personalMovieDB.movies[c]=d;
+
+      console.log(personalMovieDB);
+
+
 
     
     
